@@ -1,4 +1,4 @@
-name: Poster Upload Workflow
+name: Poster Upload Workflow project
 
 on:
   push:
