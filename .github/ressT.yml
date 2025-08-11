@@ -1,0 +1,17 @@
+name: Poster Upload Workflow
+
+on:
+  push:  # Trigger on every push
+    branches:
+      - main  # or use your branch name, e.g., Aditya
+
+jobs:
+  poster-upload:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Display success message
+        run: echo "Poster Uploaded Successfully"
